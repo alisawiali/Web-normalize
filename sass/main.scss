@@ -1,0 +1,13 @@
+@use "./loading-pag.scss";
+@use "./sttinhgs-box.scss";
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+body{
+    height: 100vh;
+    overflow: auto;
+}

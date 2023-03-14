@@ -1,0 +1,81 @@
+
+
+#landing-pag {
+    min-height: 80vh;
+    background-image: url(/images/Web-Desgin.jpeg);
+    background-size: cover;
+    position: relative;
+    cursor: pointer;
+}
+
+
+:root{
+    --main-color:#ff9800;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#landing-pag  .overly-img {
+    background-color:rgba(0, 0, 0, 0.293);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 0;
+}
+
+.header-are{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    padding: 0 1rem;
+}
+.header-are .logo{
+    width: 300px;
+    padding: 1rem;
+}
+
+.header-are #links {
+    list-style-type: none;
+
+}
+.header-are #links li{
+    display: inline-block;
+    margin-left: 1rem;
+}
+.header-are #links li a{
+    text-decoration: none;
+    color: #fff;
+}
+.header-are #links li a.active,
+.header-are #links li a:hover{
+   color: var(--main-color);
+}
+// ----------------------.introduction-test
+.introduction-test{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: #ffff;
+    text-align: center;
+    width: 100%;
+}
+
+.introduction-test h1{
+    color: #ffff;
+    font-size: 2.5rem;
+}
+
+.introduction-test span{
+    color: var(--main-color);
+}
+.introduction-test  p{
+    font-size: 1rem;
+    line-height: 30px;
+}
